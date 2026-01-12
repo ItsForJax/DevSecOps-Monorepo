@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+vendor/
+*.pyc
+__pycache__/
+
+# Environment
+.env
+.env.local
+*.local
+
+# Secrets
+secrets/
+*.key
+*.pem
+*.crt
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+dist/
+build/
+target/
